@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes:target/dependency/* Main
+web: java $JAVA_OPTS -jar target/wypozyczalnia-samochodow-1.0-jar-with-dependencies.jar
