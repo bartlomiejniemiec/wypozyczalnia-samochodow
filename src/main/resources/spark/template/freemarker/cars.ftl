@@ -32,33 +32,24 @@
 
     <thead>
     <tr>
-      <th>Nazwa auta</th>
-      <th>Segment</th>
-      <th>Cena</th>
+      <th>Nazwa</th>
+      <th>Rocznik</th>
+      <th>Kolor</th>
+      <th>Cena (zł/dzień)</th>
       <th>Rezerwacja</th>
     </tr>
     </thead>
-1
-    <tbody>
-    <tr>
-      <td>Test</td>
-      <td>Test</td>
-      <td>Test</td>
-      <td><a class="btn btn-primary btn-lg" href="R.html" role="button">Rezerwacja</a></td>
-    </tr>
-    <tr>
-      <td>Test</td>
-      <td>Test</td>
-      <td>Test</td>
-      <td><a class="btn btn-primary btn-lg" href="R.html" role="button">Rezerwacja</a></td>
-    </tr>
-    <tr>
-      <td>Test</td>
-      <td>Test</td>
-      <td>Test</td>
-      <td><a class="btn btn-primary btn-lg" href="R.html" role="button">Rezerwacja</a></td>
-    </tr>
 
+    <tbody>
+    <#list cars as c>
+    <tr>
+      <td>${c.name}</td>
+      <td>${c.year}</td>
+      <td>${c.color}</td>
+      <td>${c.pricePerDay}</td>
+      <td><a class="btn btn-primary btn-lg" href="r" role="button">Rezerwacja</a></td>
+    </tr>
+    </#list>
 
     </tbody>
 
