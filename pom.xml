@@ -24,7 +24,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.mv.MardolPsychoTestApp</mainClass>
+                            <mainClass>WypozyczalniaSamochodowApp</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>

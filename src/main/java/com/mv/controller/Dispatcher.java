@@ -1,4 +1,4 @@
-package controller;
+package com.mv.controller;
 
 import spark.template.freemarker.FreeMarkerEngine;
 
