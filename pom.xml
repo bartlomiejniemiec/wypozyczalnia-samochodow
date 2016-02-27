@@ -24,7 +24,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>WypozyczalniaSamochodowApp</mainClass>
+                            <mainClass>com.mv.WypozyczalniaSamochodowApp</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
