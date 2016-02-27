@@ -47,7 +47,7 @@
       <td>${c.year}</td>
       <td>${c.color}</td>
       <td>${c.pricePerDay}</td>
-      <td><a class="btn btn-primary btn-lg" href="r" role="button">Rezerwacja</a></td>
+      <td><a class="btn btn-primary btn-lg" href="/cars/${c.id}/reservation" role="button">Rezerwacja</a></td>
     </tr>
     </#list>
 
