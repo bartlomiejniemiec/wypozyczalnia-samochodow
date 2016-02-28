@@ -13,15 +13,15 @@
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#index.html">Wypozyczalnia samochodow</a>
+      <a class="navbar-brand" href="/">Wypozyczalnia samochodow</a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="index.html">Strona domowa</a></li>
-      <li><a href="Cars.html">Lista samochodow</a></li>
-      <li><a href="AboutUs.html">Kontakt</a></li>
+      <li class="active"><a href="/">Strona domowa</a></li>
+      <li><a href="/cars">Lista samochodow</a></li>
+      <li><a href="/about">Kontakt</a></li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
-      <li><a href="User.html">Uzytkownik</a></li>
+      <li><a href="/user">Uzytkownik</a></li>
 
     </ul>
   </div>
@@ -35,12 +35,17 @@
     <div class="row">
       <div class="col-sm-4">
         <h4>Bartlomiej Niemiec</h4>
-        <h4>nr albumu </h4>
+        <h4>174420</h4>
         <h4>KrDzIs3011Io</h4> </div>
       <div class="col-sm-4"></div>
       <div class="col-sm-4">
         <h4>Antonina Povkh</h4>
         <h4>182433</h4>
+        <h4>KrDzIs3011Io</h4>
+      </div>
+      <div class="col-sm-4">
+        <h4>Grzegorz Pilch</h4>
+        <h4>174633</h4>
         <h4>KrDzIs3011Io</h4>
       </div>
     </div>

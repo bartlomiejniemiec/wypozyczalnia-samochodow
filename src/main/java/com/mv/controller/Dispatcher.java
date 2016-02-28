@@ -24,5 +24,8 @@ public class Dispatcher {
         get("/", new BasicResource("index.ftl"), freeMarkerEngine);
         get("/cars", new CarsResource(carDao), freeMarkerEngine);
         get("/cars/:id/reservation", new ReservationResource(carDao, reservationDao), freeMarkerEngine);
+        get("/finishedreservation", new BasicResource("finishedReservation.ftl"), freeMarkerEngine);
+        get("/about", new BasicResource("aboutUs.ftl"), freeMarkerEngine);
+        get("/user", new BasicResource("user.ftl"), freeMarkerEngine);
     }
 }
